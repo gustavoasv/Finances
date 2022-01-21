@@ -17,5 +17,12 @@ export const bgHeader = styled.header`
       color: white;
       font-size: 19px;
     }
+
+    div{
+      background-color: rgb(247, 247, 247);
+      color: #FFF;
+      padding: 10px 15px;
+      border-radius: 5px;
+    }
   }
 `;

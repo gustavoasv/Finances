@@ -1,14 +1,14 @@
 import * as C from "./style";
-import Switch from "react-switch";
 
 export const Headers = () => {
-  const title: string = "goFinance";
+  const title: string = "FinanceApp";
 
   return (
     <>
       <C.bgHeader>
         <div className="header-title">
           <p>{title.toUpperCase()}</p>
+          <div>+</div>
         </div>
       </C.bgHeader>
     </>
