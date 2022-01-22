@@ -10,29 +10,51 @@ export const Cards = styled.div`
   height: 180px;
   margin: 0 auto;
 
-  @media (max-width: 500px) {
-    width: 90vw;
-    height: 500px;
+  @media (max-width: 768px) {
+    max-width: 80vw;
+    height: 450px;
+    margin: 0 auto;
     flex-direction: column;
   }
 `;
 
 export const Card = styled.div`
+  width: 90%;
+  @media (max-width: 500px) {
+     width: 100vw;
+  }
+`;
+
+export const CardContents = styled.div`
   width: 18rem;
   height: 8rem;
   padding: 10px 0 0 10px;
+  margin: 0 auto;
   background-color: white;
   border-radius: 10px;
-
+  
   &:hover {
     transform: translateY(-3px);
     -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.04);
-  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.02);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.02);
     transition: 0.2s;
   }
 
-  p:nth-child(2) {
-    font-size: 26px;
-    font-weight: 600;
-  }
+  @media (min-width: 329px e max-width: 768px) {
+    ma-width: 90vw;
+}
+
+`;
+
+export const Texts = styled.p`
+padding: 0 0 0 10px;
+  font-size: 17px;
+
+`;
+
+export const Valor = styled.p`
+  width: 250px;
+  padding: 0 0 0 10px;
+  font-size: 27px;
+  font-weight: 700;
 `;
