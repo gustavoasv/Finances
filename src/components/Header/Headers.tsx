@@ -1,5 +1,5 @@
+
 import * as C from "./style";
-import { ButtonOpenModal } from "./style";
 import { ModalApp } from "../Modal/Modal";
 
 export const Headers = () => {

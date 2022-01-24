@@ -1,3 +1,4 @@
+
 import styled from "styled-components";
 
 export const bgHeader = styled.header`
@@ -12,20 +13,23 @@ export const bgHeader = styled.header`
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
-
-    p {
+  
+    p{
       color: white;
       font-weight: 700;
-      font-size: 26px;
+      font-size: 22px;
     }
+
+  
   }
 `;
 
 export const ButtonOpenModal = styled.div`
-  background-color: rgb(247, 247, 247);
-  color: #000;
-  text-align: center;
-  cursor: pointer;
-  padding: 5px 10px;
-  border-radius: 5px;
+
+background-color: rgb(247, 247, 247);
+color: #000;
+cursor: pointer;
+padding: 10px 15px;
+border-radius: 5px;
+
 `

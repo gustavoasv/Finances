@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { Dash } from "./components/Dashboard/Dash";
 import { Headers } from "./components/Header/Headers";
-import { Tabela } from "./components/Tabela";
-import { ModalApp } from "./components/Modal/Modal";
+
 
 function App() {
   return (
@@ -10,7 +9,7 @@ function App() {
       <Headers></Headers>
       <Dash></Dash>
     </div>
-  );
+   )
 }
 
 export default App;
