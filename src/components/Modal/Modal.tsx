@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Modal from "react-modal";
 import { ButtonOpenModal } from "../Header/style";
+import * as C from "./styles";
 
 const customStyles = {
   content: {
@@ -8,9 +9,9 @@ const customStyles = {
     left: "50%",
     right: "50%",
     bottom: "auto",
-    width: "400px",
-    height: "500px",
-
+    width: "420px",
+    height: "320px",
+    transition: "2s",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
   },
@@ -36,8 +37,25 @@ export const ModalApp = () => {
         onRequestClose={closeModal}
         style={customStyles}
       >
-        <h1>MODALLLLLL</h1>
-        <button onClick={closeModal}>Fechar</button>
+        <C.ContainerModal>
+          <h3>ADICIONAR</h3>
+          <C.Select>
+            <option>
+              Categoria
+            </option>
+            <option>Entrada</option>
+            <option>Saída</option>
+          </C.Select>
+          <C.Input placeholder="Digite o o titulo" />
+          <C.Input placeholder="Digite o valor" />
+          <C.Input type="date" />
+          <C.ButtonsArea>
+            <C.ButtonModal>Adicionar</C.ButtonModal>
+            <C.ButtonModal className="buttonCancel" onClick={closeModal}>
+              Canclelar
+            </C.ButtonModal>
+          </C.ButtonsArea>
+        </C.ContainerModal>
       </Modal>
     </div>
   );

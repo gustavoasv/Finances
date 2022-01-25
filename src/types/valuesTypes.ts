@@ -3,4 +3,5 @@ export type Item = {
   categoria: string;
   value: number;
   date: Date;
+  color: string;
 };
