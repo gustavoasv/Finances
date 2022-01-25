@@ -1,4 +1,3 @@
-
 import * as C from "./style";
 import { ModalApp } from "../Modal/Modal";
 
@@ -10,7 +9,7 @@ export const Headers = () => {
       <C.bgHeader>
         <div className="header-title">
           <p>{title.toUpperCase()}</p>
-         <ModalApp></ModalApp>
+          <ModalApp></ModalApp>
         </div>
       </C.bgHeader>
     </>

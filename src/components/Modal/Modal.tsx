@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Modal from "react-modal";
 import { ButtonOpenModal } from "../Header/style";
-import * as C from "./styles";
+import * as C from "../Modal/styles";
 
 const customStyles = {
   content: {
@@ -20,6 +20,13 @@ const customStyles = {
 Modal.setAppElement("#root");
 
 export const ModalApp = () => {
+
+ const [title, setTitle] = useState('')
+ const [value, setValue] = useState(0)
+ const [data, setData] = useState('')
+
+
+
   const [ModalIsOpen, setIsOpen] = useState(false);
   const openModal = () => {
     setIsOpen(true);
@@ -46,8 +53,8 @@ export const ModalApp = () => {
             <option>Entrada</option>
             <option>Saída</option>
           </C.Select>
-          <C.Input placeholder="Digite o o titulo" />
-          <C.Input placeholder="Digite o valor" />
+          <C.Input placeholder="Digite o o titulo" title={title} onChange={event => event.target.value}/>
+          <C.Input placeholder="Digite o valor" value={value} onChange={event => event.target.value}/>
           <C.Input type="date" />
           <C.ButtonsArea>
             <C.ButtonModal>Adicionar</C.ButtonModal>

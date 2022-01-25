@@ -1,5 +1,7 @@
 import { Item } from "../../types/valuesTypes";
-import { TabCard } from "./style";
+import { Bar, TabCard } from "./style";
+import { FormateDate } from "../../helpers/formatDate";
+
 type Props = {
   listI: Item[];
 };
@@ -10,9 +12,11 @@ export const TabMain = ({ listI }: Props) => {
         {listI.map((item, index) => {
           return (
             <TabCard key={index}>
+              <Bar color={item.color}></Bar>
               <div>{item.title}</div>
-              <div>{item.value}</div>
+              <div> R$ {item.value}</div>
               <div>{item.categoria}</div>
+              <div>{FormateDate(item.date)}</div>
             </TabCard>
           );
         })}
