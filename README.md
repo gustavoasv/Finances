@@ -38,9 +38,7 @@ Technologies that I used to develop this web client
 - [React-Modal](https://styled-components.com/)
 - [ViteJs](https://styled-components.com/)
 
-
-
-After your pull request is merged, you can delete your branch
+obs: projeto ainda em desenvolvimento  🚧
 
 ## 📝 License
 
