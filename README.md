@@ -46,4 +46,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with 💜 &nbsp;by Gustavo Alves 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/gustaalves/)
+Made with 💜 &nbsp;by Gustavo Alves 
