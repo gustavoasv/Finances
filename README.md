@@ -26,7 +26,7 @@
 <img src="https://github.com/gustta03/Finances/blob/master/github/financedemo.gif">
 ## 👨🏻‍💻 About the project
 
-- <p style="color: red;">Sistema de finanças pessoais para controle controle financeiro </p>
+- <p style="color: red;">Sistema de finanças pessoais para controle financeiro </p>
 
 ## 🚀 Technologies
 
