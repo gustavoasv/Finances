@@ -63,6 +63,7 @@ function App() {
     newList.push(a);
     console.log(list);
     setList(newList);
+    closeModal()
   };
   return (
     <>
