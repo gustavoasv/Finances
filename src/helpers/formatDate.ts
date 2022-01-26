@@ -7,7 +7,7 @@ export const FormateDate = (date: Date): string => {
   return `${addZero(nowDay)}/${addZero(nowMonth)}/${nowYear}`;
 };
 
-function addZero(number: number): string {
+function addZero(number: string | number): string {
   if(number < 10){
       return `0${number}`
   }
@@ -15,3 +15,5 @@ function addZero(number: number): string {
       return `${number}`
   }
 }
+
+export default addZero

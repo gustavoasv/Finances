@@ -1,12 +1,11 @@
 import { useEffect, useState, ReactChild } from "react";
 import { Dash } from "./components/Dashboard/Dash";
-import { Headers } from "./components/Header/Headers";
 import { Item } from "./types/valuesTypes";
 import { TabMain } from "./components/Tab";
 import Modal from "react-modal";
 import { DataItems } from "./data/values";
 import "./components/Tab/style";
-import { ButtonOpenModal } from "./components/Header/style";
+import { Head } from "./App.style";
 import * as C from "./App.style";
 
 const customStyles = {
@@ -67,9 +66,12 @@ function App() {
   };
   return (
     <>
-      <Headers>
-        <ButtonOpenModal onClick={openModal}> + </ButtonOpenModal>
-      </Headers>
+      <Head>
+      <div className="header-title">
+          <p>FINANCEAPP</p>
+          <button onClick={openModal}> + </button>
+        </div>
+      </Head>
       <Modal
         isOpen={ModalIsOpen}
         onRequestClose={closeModal}
@@ -96,7 +98,9 @@ function App() {
             onChange={(event) => setDate(event.target.value)}
           />
           <C.ButtonsArea>
-            <button onClick={addArr}>Adicionar</button>
+          <C.ButtonModal onClick={addArr}>
+              Adicionar
+            </C.ButtonModal>
             <C.ButtonModal className="buttonCancel" onClick={closeModal}>
               Canclelar
             </C.ButtonModal>

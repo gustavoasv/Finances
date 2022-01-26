@@ -1,7 +1,7 @@
 import { Item } from "../../types/valuesTypes";
 import { Bar, TabCard } from "./style";
-import { FormateDate } from "../../helpers/formatDate";
 
+import addZero from "../../helpers/formatDate";
 type Props = {
   listI: Item[];
 };
@@ -16,7 +16,7 @@ export const TabMain = ({ listI }: Props) => {
               <div>{item.title}</div>
               <div> R$ {item.value}</div>
               <div>{item.select}</div>
-              <div>{FormateDate(item.date)}</div>
+              <div>{item.date}</div>
             </TabCard>
           );
         })}
