@@ -38,7 +38,7 @@ Technologies that I used to develop this web client
 - [React-Modal](https://styled-components.com/)
 - [ViteJs](https://styled-components.com/)
 
-obs: projeto ainda em desenvolvimento  🚧
+obs: projeto ainda em desenvolvimento (não há banco de dados e dados não salvo)🚧
 
 ## 📝 License
 
