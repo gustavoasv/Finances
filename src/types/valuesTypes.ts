@@ -1,8 +1,6 @@
 export type Item = {
   title: string;
-  categoria: string;
-  expansetype: boolean;
+  select: string;
   value: number;
   date: Date;
-  color: string;
 };

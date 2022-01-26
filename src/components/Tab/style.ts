@@ -18,7 +18,7 @@ export const TabCard = styled.div`
 `;
 
 export const Bar = styled.span<{color: string}>`
-  background-color: ${props => props.color};
+  background-color: ${props => props.color == 'Entrada' ? 'green' : 'red'};
   position: relative;
   left: -20px;
   width: 8px;

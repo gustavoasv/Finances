@@ -1,4 +1,3 @@
-
 import styled from "styled-components";
 
 export const Cards = styled.div`
@@ -22,7 +21,7 @@ export const Cards = styled.div`
 export const Card = styled.div`
   width: 90%;
   @media (max-width: 500px) {
-     width: 100vw;
+    width: 100vw;
   }
 `;
 
@@ -33,9 +32,9 @@ export const CardContents = styled.div`
   margin: 0 auto;
   background-color: white;
   border-radius: 10px;
-  transition: .5s;
+  transition: 0.5s;
   box-shadow: 5px 5px 15px 8px rgba(0, 0, 0, 0.04);
-  
+
   &:hover {
     transform: translateY(-3px);
     -webkit-box-shadow: 1px 1px 1px 416px rgba(0, 0, 0, 0.304);
@@ -45,14 +44,12 @@ export const CardContents = styled.div`
 
   @media (min-width: 329px e max-width: 768px) {
     ma-width: 90vw;
-}
-
+  }
 `;
 
 export const Texts = styled.p`
-padding: 0 0 0 10px;
+  padding: 0 0 0 10px;
   font-size: 17px;
-
 `;
 
 export const Valor = styled.p`

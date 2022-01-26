@@ -26,7 +26,7 @@ type Props = {
         <C.Card>
           <C.CardContents>
             <C.Texts>Balanço</C.Texts>
-            <C.Valor className="valor">R$ {income - expanse}</C.Valor>
+            <C.Valor className="valor">R$ {expanse - income}</C.Valor>
           </C.CardContents>
         </C.Card>
       </C.Cards>

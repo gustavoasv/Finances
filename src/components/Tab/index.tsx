@@ -12,10 +12,10 @@ export const TabMain = ({ listI }: Props) => {
         {listI.map((item, index) => {
           return (
             <TabCard key={index}>
-              <Bar color={item.color}></Bar>
+              <Bar color={item.select}></Bar>
               <div>{item.title}</div>
               <div> R$ {item.value}</div>
-              <div>{item.categoria}</div>
+              <div>{item.select}</div>
               <div>{FormateDate(item.date)}</div>
             </TabCard>
           );
