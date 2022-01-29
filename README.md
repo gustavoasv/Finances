@@ -23,7 +23,7 @@
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
 </p>
-<img src="https://github.com/gustta03/Finances/blob/master/github/financedemo.gif">
+<img src="https://github.com/gustta03/Finances/blob/master/github/gif.gif">
 ## 👨🏻‍💻 About the project
 
 - <p style="color: red;">Sistema de finanças pessoais para controle financeiro </p>
