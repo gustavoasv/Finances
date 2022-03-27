@@ -24,6 +24,7 @@
   <a href="#-license">License</a>
 </p>
 <img src="https://github.com/gustta03/Finances/blob/master/github/gif.gif">
+
 ## 👨🏻‍💻 About the project
 
 - <p style="color: red;">Sistema de finanças pessoais para controle financeiro </p>
