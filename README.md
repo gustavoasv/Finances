@@ -35,12 +35,4 @@ Technologies that I used to develop this web client
 - [React-Modal](https://styled-components.com/)
 - [ViteJs](https://vitejs.dev/)
 
-obs: não há banco de dados e dados não serão salvo 🚧
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 Made with 💜 &nbsp;by Gustavo Alves 
