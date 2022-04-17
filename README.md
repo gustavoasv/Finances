@@ -17,12 +17,6 @@
   
   <img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/readme-template">
 </p>
-
-<p align="center">
-  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license">License</a>
-</p>
 <img src="https://github.com/gustta03/Finances/blob/master/github/gif.gif">
 
 ## 🚀 Technologies
